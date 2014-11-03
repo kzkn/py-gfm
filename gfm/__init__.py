@@ -2,12 +2,12 @@
 # for details. All rights reserved. Use of this source code is governed by a
 # BSD-style license that can be found in the LICENSE file.
 
-import autolink
-import automail
-import hidden_hilite
-import semi_sane_lists
-import spaced_link
-import strikethrough
+from . import autolink
+from . import automail
+from . import hidden_hilite
+from . import semi_sane_lists
+from . import spaced_link
+from . import strikethrough
 
 AutolinkExtension = autolink.AutolinkExtension
 AutomailExtension = automail.AutomailExtension
