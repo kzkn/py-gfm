@@ -6,7 +6,7 @@ from markdown.extensions.nl2br import Nl2BrExtension
 
 from mdx_partial_gfm import PartialGithubFlavoredMarkdownExtension
 
-def makeExtension(configs=None):
+def makeExtension(configs={}):
     return GithubFlavoredMarkdownExtension(configs=configs)
 
 class GithubFlavoredMarkdownExtension(PartialGithubFlavoredMarkdownExtension):
